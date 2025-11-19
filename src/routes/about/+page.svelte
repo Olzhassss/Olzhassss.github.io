@@ -54,6 +54,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>About</title>
+</svelte:head>
+
 <section>
 	<div class="mx-auto container cursor-default">
 		<h2 class="mb-4 font-semibold">
@@ -71,9 +75,7 @@
 
 <section>
 	<div class="mx-auto container cursor-default">
-		<h2 class="mb-4 font-semibold">
-			What do I like?
-		</h2>
+		<h2 class="mb-4 font-semibold">What do I like?</h2>
 		<div class="h-48 w-full relative">
 			<div
 				class="absolute w-full h-full flex items-center justify-center transition-opacity {start
@@ -101,12 +103,3 @@
 		</div>
 	</div>
 </section>
-
-<!-- <section>
-    <div class="mx-auto container cursor-default">
-        <h2 class="mb-4 font-semibold">Want to be friends? <span class="text-slate-300 text-sm">Why not? Just solve the puzzle!</span></h2>
-        <div>
-            
-        </div>
-    </div>
-</section> -->

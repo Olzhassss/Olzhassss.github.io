@@ -9,16 +9,16 @@ const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: [
-		vitePreprocess(), 
+		vitePreprocess(),
 		mdsvex({
 			extensions: ['.md.svelte', '.svx']
-		}),
+		})
 	],
 
 	kit: {
-		paths: {
-			base: dev ? '' : '/personal_website'
-		},
+		// paths: {
+		// 	base: dev ? '' : '/personal_website'
+		// },
 		adapter: adapter({ pages: 'docs' })
 	}
 };
